@@ -2,7 +2,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{margin: 0;
+* {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
@@ -10,71 +11,119 @@
 
 
 /*mise en page*/
-.flex{
-    display:flex;
+.flex {
+    display: flex;
     flex-wrap: warp;
 }
- /*mise a la ligne des elements comme du txt*/
+
+/*mise a la ligne des elements comme du txt*/
 
 /*mise en pagedes elements*/
-.btw{
-    justify-content: space-between;}
+.btw {
+    justify-content: space-between;
+}
 
-.AR{justify-content: space-around;}
+.AR {
+    justify-content: space-around;
+}
 
-.align-start{
-    align-items: start;}
-.align-center{
-    align-items: center;}
-.align-end{
-    align-items: end;}
+.align-start {
+    align-items: start;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.align-end {
+    align-items: end;
+}
+
 /*loremaefmffafaga*/
 
 
 
 /*Gap et classe de largeur*/
-.gap16{
-gap: 16px;}
-.pd200{
-    padding: 200px;}
+.gap16 {
+    gap: 16px;
+}
 
-.pd40{ 
-    ;}
-.gp32{
-    gap: 32px;}
-    
+.pd200 {
+    padding: 200px;
+}
+
+.pd12 {
+    padding: 12px;
+}
+
+.gp32 {
+    gap: 32px;
+}
+
 /*IMAGE*/
-.bg-hero{background-image: url(asset/Banner.jpg);
-background-size: cover;
-height: 100vh;
-width: ;
-background-repeat: no-repeat;
+.bg-hero {
+    background-image: url(asset/Banner.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: ;
+    background-repeat: no-repeat;
 }
 
 
 
 /*color*/
-.a{
+.a {
     color: black;
     display: inline-block;
 }
 
-.ft-size{font-size: 70px ;}
-
-.DM{  font-family: "DM Serif Display", serif;
+.ft-size {
+    font-size: 70px;
 }
 
-.jost{
-    font-family: "Jost", sans-serif;}
-
-.container{
-    max: width 1000px;
-    margin-left:auto;
-    margin-right:auto;
+.ft-size2 {
+    font-size: 22px;
 }
 
+.DM {
+    font-family: "DM Serif Display", serif;
+}
 
+.jost {
+    font-family: "Jost", sans-serif;
+}
 
+.container {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
 
+}
 
+.w25 {
+    width: 25%;
+}
 
+.btn-projet {
+    padding: 16px 16px;
+    display: inline-block;
+    color: white;
+    background-color: #292f36;
+    border-radius: 20px;
+}
+
+.mag40 {
+    margin: 40px;
+}
+
+.mag100 {
+    margin-top: 100px;
+}
+
+.w40 {
+    width: 40%;
+}
+
+h50 {
+    height: 0px;
+}
