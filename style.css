@@ -1,0 +1,40 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*mise en page*/
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+} /*mise a la ligne des elements comme du txt*/
+
+/*mise en pagedes elements*/
+.btw{
+    justify-content: space-between;}
+
+.AR{justify-content: space-around;}
+
+.align-start{
+    align-items: start;}
+.align-center{
+    align-items: center;}
+.align-end{
+    align-items: end;}
+/*loremaefmffafaga*/
+
+
+
+/*Gap et classe de largeur*/
+.gap16{
+    gap: 16px;}
+/*IMAGE*/
+.bg-logo{
+    background-image: url(asset/Banner.jpg);
+}
+
+
+
+
+
