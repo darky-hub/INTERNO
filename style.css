@@ -1,14 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 
 /*mise en page*/
 .flex{
     display:flex;
-    flex-wrap: wrap;
-} /*mise a la ligne des elements comme du txt*/
+    flex-wrap: warp;
+}
+ /*mise a la ligne des elements comme du txt*/
 
 /*mise en pagedes elements*/
 .btw{
@@ -28,11 +34,45 @@
 
 /*Gap et classe de largeur*/
 .gap16{
-    gap: 16px;}
+gap: 16px;}
+.pd200{
+    padding: 200px;}
+
+.pd40{ 
+    ;}
+.gp32{
+    gap: 32px;}
+    
 /*IMAGE*/
-.bg-logo{
-    background-image: url(asset/Banner.jpg);
+.bg-hero{background-image: url(asset/Banner.jpg);
+background-size: cover;
+height: 100vh;
+width: ;
+background-repeat: no-repeat;
 }
+
+
+
+/*color*/
+.a{
+    color: black;
+    display: inline-block;
+}
+
+.ft-size{font-size: 70px ;}
+
+.DM{  font-family: "DM Serif Display", serif;
+}
+
+.jost{
+    font-family: "Jost", sans-serif;}
+
+.container{
+    max: width 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
 
 
 
